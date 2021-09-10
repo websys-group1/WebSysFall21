@@ -1,0 +1,140 @@
+/* below formats the header of the home page*/
+.header{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(238, 228, 228);
+    z-index: 1;
+    list-style: none;
+    overflow-x: visible;
+}
+.header p{
+    margin: 0;
+    top: 1;
+    left: 0;
+    font-size: 2rem;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.0rem;
+    color: black;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+
+
+
+/*this formats the font of the main body text*/
+body{
+    font-family: 'Zilla Slab', serif;
+}
+
+
+/*this centers the main body text and gives the website the brick background*/
+.section{
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Zilla Slab', serif;
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+/*below formats the text in the main page*/
+.paragraph-col{
+    max-width: 25%;
+}
+
+.section h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section h3{
+    text-decoration: underline;
+}
+.section h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.section p{
+    padding-right: 1rem;
+}
+
+/*this positions the footer and colors the text and makes it alined in the center*/
+.footer{
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(238, 228, 228);
+    color:black;
+    text-align: center;
+    z-index: 1;
+}
+
+/*nav{
+    display: block;
+    position: absolute;
+    background: #808080;
+    padding: 0px;
+    margin-top: 29px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    float: left;
+    list-style: none;
+}*/
+
+
+
+.accordion-1{
+    margin-bottom: 800px;
+    z-index: 2;
+    position: absolute;
+    color:white;
+    background-color: white;
+    outline:black;
+    border:black;
+    z-index: 1;
+}
+
+.accordion-1 h3{
+    text-decoration: underline;
+}
+
+.bodytext{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+    padding-top: 200px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*this formats the image over further to the right*/
+.image{
+    bottom:0;
+}

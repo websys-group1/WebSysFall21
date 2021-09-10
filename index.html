@@ -1,0 +1,100 @@
+<! DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Team 1 HomePage Portfolio
+        </title>
+        <meta charste="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!--fonts from google-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src=scripts/jqueryForIndexMenu.js></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+
+        
+
+    </head>
+    <body>
+
+    <header class="header">
+        <p>Web Systems Group One Portfolio</p>
+    
+        <nav id="navigation">
+            <ul class="parent">
+                    <ul class="child">
+                        <li><a href= "aboutChloe.html" class="menu-item">Chloe's Page    </a></li>
+                        <li><a href= "page.html" class="menu-item">Lubna's Page    </a></li>
+                        <li><a href= "page.html" class="menu-item">Rex's Page    </a></li>
+                        <li><a href= "page.html" class="menu-item">Member's Page</a></li>
+                    </ul>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="section paragraph-section">
+        <!--this is the main body of the home page where there is a paragraph and accordian-->
+        <div class= "paragraph-col">
+            <h1>Web Systems 2110</h1>
+            <p></p>
+            <script>
+                $(function(){
+                    $("#accordion-1").accordion();
+                });
+            </script>
+            <div id="accordion-1">
+                <h3>Our Resume Pages</h3>
+                <div>
+                    <p>
+                        Here are the links to all of our group members' resumes!
+                    </p>
+                    <ul class="resume lists">
+                        <li><a href= "ChloeResume.html">Chloe's resume</a></li>
+                        <li><a href= "resume.html">Lubna's Resume</a></li>
+                        <li><a href= "resume.html">Rex's Resume</a></li>
+                        <li><a href= "resume.html">Member's Resume</a></li>
+                    </ul>
+                </div>
+                <h3>Our Previous works</h3>
+                <div>
+                    <ul class= "projects lists">
+                        <li>Each of out teammates have worked withusing, HTML and CSS, JavaScript,
+                            and PHP.
+                        </li>
+                        <li>Our group members also worked with RPI's center for open source, and contributed
+                            to RPI by helping to create and develop projects they were passionate about.
+                        </li>
+                        <li>Our team also has a background in game design, using platforms such as Unity, 
+                            to develop simple games and storylines.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="paragraph-col">
+            <h2>Our Members!!</h2>
+            <ul><img src="profilepic.jpg" alt="Chloe" width="60" height="60"></ul>
+            <ul>Chloe:)</ul>
+            <ul>insert more photos here</ul>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Group One is the One and Only Team for Your Web Development Needs!!</p>
+    </div>
+    </body>
+</html>

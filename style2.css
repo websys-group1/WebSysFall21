@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 239, 239);
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    margin: 0;
+    font-weight:400;
+    /* diplay: inline-block; */
+}
+
+.box{
+    background: #fff;
+    padding: 3rem;
+    margin: 1rem auto;
+    background: rgb(240, 239, 239);
+    border-radius: 0.5rem;
+
+}
+
+.header{
+    display: grid;
+    background: rgb(240, 239, 239);
+    grid-template-columns: 40% 60%;
+}
+
+.header-left h1{
+    display: inline;
+    font-size: 2rem;
+}
+
+.first-name{
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-name{
+    font-weight: 200;
+    margin: 0;
+}
+
+.header-right{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+
+.header-right p{
+    display: inline;
+}
+
+.icon{
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.ed-head h2{
+    display: inline;
+}
+
+.skill-head h2{
+    display: inline;
+}
+
+.prof-head h2{
+    display: inline;
+}
+
+.acheivement-head h2{
+    display: inline;
+}
+
+.prof-info{
+    padding-left: 150px;
+}
+
+.education-list1{
+    padding-left: 150px;
+}
+
+.education-list2{
+    padding-left: 150px;
+}
+
+.experience-list1{
+    padding-left: 150px;
+}
+
+.experience-list2{
+    padding-left: 150px;
+}
+
+.experience-list3{
+    padding-left: 150px;
+}
+
+.acheivment-list{
+    padding-left: 125px;
+}
+
+
+.experience-list1 h4{
+    display: inline;
+}
+.experience-list2 h4{
+    display: inline;
+}
+.experience-list3 h4{
+    display: inline;
+}
